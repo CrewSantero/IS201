@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #00334e;
+}
+
+/* Header */
+.header {
+    background: url('../assets/img/snowy-header.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Navigation */
+.nav {
+    background-color: #007c91;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Section */
+.content {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #004d61;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f9ff;
+}
+
+.image-section img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Video Section */
+.video-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e0f2f1;
+}
+
+.video-section h2 {
+    color: #005b75;
+}
+
+/* Tableau Section */
+.tableau-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.tableau-section h2 {
+    color: #006d8f;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #007c91;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: #ffecb3;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1.2em;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
